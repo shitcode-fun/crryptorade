@@ -1,0 +1,98 @@
+[
+  {
+    "query": "Responsive Navbar with navigation links, logo, dark mode toggle, and wallet connect button using Shadcn/Radix UI components",
+    "format": "tsx"
+  },
+  {
+    "query": "Footer component with branding and responsive layout using TailwindCSS",
+    "format": "tsx"
+  },
+  {
+    "query": "Hero section with title, description, and primary call-to-action button styled with Shadcn UI",
+    "format": "tsx"
+  },
+  {
+    "query": "Card component for displaying token information (name, symbol, total supply, user balance) with actions",
+    "format": "tsx"
+  },
+  {
+    "query": "Form component for token operations (transfer) with inputs and submit button",
+    "format": "tsx"
+  },
+  {
+    "query": "Full-screen game canvas container for Race page with overlay controls and responsive styling",
+    "format": "tsx"
+  },
+  {
+    "query": "Game over modal/dialog component summarizing score and coins collected, with action buttons",
+    "format": "tsx"
+  },
+  {
+    "query": "Trivia question modal/dialog component with radio-group options and submit button using Radix UI Dialog",
+    "format": "tsx"
+  },
+  {
+    "query": "Leaderboard table or list component displaying top players' addresses, scores, and coins, with responsive layout",
+    "format": "tsx"
+  },
+  {
+    "query": "Toast notification provider and hook using Shadcn UI Toast components",
+    "format": "tsx"
+  },
+  {
+    "query": "Skeleton loader component for content placeholders using Shadcn UI Skeleton",
+    "format": "tsx"
+  },
+  {
+    "query": "Spinner or loading indicator component using Radix UI Spinner",
+    "format": "tsx"
+  },
+  {
+    "query": "Button component with variants (primary, secondary, outline, ghost) using Shadcn UI",
+    "format": "tsx"
+  },
+  {
+    "query": "Input component with variants (default, outline, with icon) and validation states using Shadcn UI",
+    "format": "tsx"
+  },
+  {
+    "query": "Card component for generic use with header, content, and footer slots",
+    "format": "tsx"
+  },
+  {
+    "query": "Container component for responsive page padding and max-width",
+    "format": "tsx"
+  },
+  {
+    "query": "Typography components (Heading, Paragraph, Text) with consistent fonts and sizes",
+    "format": "tsx"
+  },
+  {
+    "query": "Dark mode toggle switch component",
+    "format": "tsx"
+  },
+  {
+    "query": "Alert component for displaying inline error or status messages",
+    "format": "tsx"
+  },
+  {
+    "query": "Tooltip component for additional info on hover using Radix UI Tooltip",
+    "format": "tsx"
+  },
+  {
+    "query": "Popover component for contextual menus or settings using Radix UI Popover",
+    "format": "tsx"
+  },
+  {
+    "query": "Avatar component representing user or placeholder icon",
+    "format": "tsx"
+  },
+  {
+    "query": "Badge component for labeling stats or statuses",
+    "format": "tsx"
+  },
+  {
+    "query": "Modal wrapper component for generic modals using Radix UI Dialog",
+    "format": "tsx"
+  }
+]

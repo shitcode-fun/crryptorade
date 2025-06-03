@@ -5,6 +5,7 @@ import { RainbowKitProvider, getDefaultConfig } from '@rainbow-me/rainbowkit';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { WagmiProvider, http } from 'wagmi';
 import { base, baseSepolia } from 'wagmi/chains';
+import { ToastProvider } from '@/components/Toast';
 
 // This is a placeholder WalletConnect Project ID. It must remain here to avoid build errors if the environment variable is not set yet.
 const WALLETCONNECT_PROJECT_ID = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || '7ab5a4842a5dfe979ced738203d2729c';
@@ -28,7 +29,9 @@ export function Providers({ children }: { children: React.ReactNode }) {
         <RainbowKitProvider
           modalSize="compact" // 'compact' | 'wide'
         >
-          {children}
+          <ToastProvider>
+            {children}
+          </ToastProvider>
         </RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
